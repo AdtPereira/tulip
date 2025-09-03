@@ -4,6 +4,9 @@ build/
 builds/
 ParaView/
 tmp_cases/
+vcpkg_installed/
+mfem-install/
+pulmtln-build/
 
 CMakeSettings.json
 
@@ -63,6 +66,7 @@ __pycache__/
 
 /to_from_JSONFile_test.pulmtln.out.json
 /Results
+/examples
 /mfem-build
 /testData/lansink2024_single_wire/lansink2024_single_wire.areas.json
 /testData/lansink2024_fdtd_cell/calculations.py

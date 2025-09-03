@@ -260,6 +260,11 @@ void Driver::run()
 		saveToJSONFile(
 			inCell.toJSON(),
 			opts_.exportFolder + "inCellPotentials.out.json");
+
+		auto pul = buildPULParametersForModel();
+		saveToJSONFile(
+			pul.toJSON(), 
+			opts_.exportFolder + "pulmtln.out.json");
 	}
 	else {
 		throw std::runtime_error("Openness of the model is not supported.");
